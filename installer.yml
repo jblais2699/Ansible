@@ -1,0 +1,5 @@
+- name: installer 1
+  hosts: all
+  tasks:
+        - name: Installer Lynx !
+          apt: name=lynx update_cache=yes state=latest 

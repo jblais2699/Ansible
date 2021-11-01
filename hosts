@@ -22,6 +22,9 @@
 #beta.example.org
 #192.168.1.100
 #192.168.1.110
+[serveurs]
+10.1.0.26 ansible_user=root ansible_ssh_pass=crosemont
+10.1.0.27 ansible_user=root ansible_ssh_pass=crosemont
 
 # If you have multiple hosts following a pattern you can specify
 # them like this:
